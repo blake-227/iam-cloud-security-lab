@@ -1,0 +1,9 @@
+Role,Entra Access,AWS Access,Azure Access,Git Access,VPN Access,Privileged Access
+Help Desk,Standard User,None,None,None,Yes,Limited
+Cloud Engineer,Standard User,Developer,Contributor,Yes,Yes,No
+Cloud Security Engineer,Standard User,Security,Security Reader,Yes,Yes,Limited
+IAM Engineer,Identity Administrator,IAM Read/Admin,Identity Management,Yes,Yes,Limited
+Security Analyst,Standard User,Security Read,Security Reader,Yes,Yes,No
+Finance Analyst,Standard User,None,Finance Resources,None,Yes,No
+HR Analyst,Standard User,None,HR Resources,None,Yes,No
+Contractor,Standard User,Restricted,Restricted,Limited,Yes,No
