@@ -19,3 +19,41 @@
 - Created GitHub IAM + Cloud Security portfolio repository.
 - Created lab folder structure.
 - Added security-focused .gitignore configuration.
+
+
+
+## September 17, 2026
+
+### IAM
+
+Created Northstar's initial RBAC access matrix.
+
+Defined access levels for:
+- Cloud Engineers
+- IAM Engineers
+- Security Analysts
+- Developers
+- Systems Administrators
+- Help Desk
+- Finance
+- HR
+- Contractors
+- Executives
+
+Processed IAM-0001 for new employee Sarah Miller.
+
+Reviewed requested permissions against the RBAC model.
+
+Denied unnecessary administrative permissions based on least privilege.
+
+Created a 90-day access review.
+
+### Skills Practiced
+
+- RBAC
+- Joiner lifecycle
+- Least privilege
+- Access approval
+- Access documentation
+- IAM ticket processing
+- Audit trail creation

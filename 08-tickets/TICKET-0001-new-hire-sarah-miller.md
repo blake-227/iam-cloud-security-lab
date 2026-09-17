@@ -1,43 +1,123 @@
-# TICKET-0001 - New Hire Onboarding
+# IAM Ticket IAM-0001
 
-## Employee Information
+## Request Type
 
-Name: Sarah Miller  
-Department: Engineering  
-Role: Cloud Engineer  
-Manager: James Wilson  
-Employment Type: Full-Time  
+New Hire Onboarding
 
-## Requested Access
+## Requestor
+
+James Wilson
+
+Engineering Manager
+
+## Employee
+
+Sarah Miller
+
+Employee ID: NS-1001
+
+Department: Engineering
+
+Role: Cloud Engineer
+
+Employment Type: Full-Time
+
+---
+
+## Business Request
+
+Provision required corporate and cloud access for Sarah Miller before her first day.
+
+Requested access:
 
 - Microsoft Entra ID account
 - Engineering security group
-- AWS Cloud Engineer role
-- Azure Engineering resources
-- Git repository access
-- VPN access
+- Cloud Engineers security group
+- AWS Developer access
+- Azure Contributor access
+- Engineering Git repositories
+- Corporate VPN
 
-## Security Requirements
+---
 
-- MFA required
+## IAM Analyst Review
+
+### Identity Verification
+
+Employee exists in approved HR onboarding request.
+
+Status:
+
+Approved
+
+### Role Validation
+
+Requested job role:
+
+Cloud Engineer
+
+RBAC role found in:
+
+01-identity/access-matrix.csv
+
+Status:
+
+Approved
+
+### Least Privilege Review
+
+AWS AdministratorAccess:
+
+Denied
+
+Azure Owner:
+
+Denied
+
+Global Administrator:
+
+Denied
+
+Permanent privileged access:
+
+Denied
+
+Standard Cloud Engineer permissions:
+
+Approved
+
+---
+
+## Required Controls
+
+- MFA enabled
+- Manager approval recorded
+- Role-based access applied
 - Least privilege applied
-- No administrative privileges
-- Manager approval required
-- Access review after 90 days
+- No shared credentials
+- 90-day access review scheduled
 
-## IAM Actions
+---
 
-1. Create user identity.
-2. Assign employee to Engineering group.
-3. Assign Cloud Engineer RBAC role.
-4. Provision AWS access.
-5. Provision Azure access.
-6. Grant Git repository access.
-7. Enable VPN access.
-8. Require MFA enrollment.
-9. Verify no unnecessary privileged roles were assigned.
-10. Document completed access.
+## Provisioning Tasks
 
-## Status
+- [ ] Create Entra user
+- [ ] Add to Engineering group
+- [ ] Add to Cloud Engineers group
+- [ ] Assign AWS Developer role
+- [ ] Assign Azure Contributor access
+- [ ] Grant Git repository access
+- [ ] Enable VPN access
+- [ ] Require MFA
+- [ ] Validate login
+- [ ] Document completion
 
-Completed in lab simulation.
+---
+
+## Final Status
+
+Status: Pending Provisioning
+
+IAM Analyst: Blake Alvarez
+
+Environment: Northstar Defense Systems Lab

@@ -1,9 +1,13 @@
-Role,Entra Access,AWS Access,Azure Access,Git Access,VPN Access,Privileged Access
-Help Desk,Standard User,None,None,None,Yes,Limited
-Cloud Engineer,Standard User,Developer,Contributor,Yes,Yes,No
-Cloud Security Engineer,Standard User,Security,Security Reader,Yes,Yes,Limited
-IAM Engineer,Identity Administrator,IAM Read/Admin,Identity Management,Yes,Yes,Limited
-Security Analyst,Standard User,Security Read,Security Reader,Yes,Yes,No
-Finance Analyst,Standard User,None,Finance Resources,None,Yes,No
-HR Analyst,Standard User,None,HR Resources,None,Yes,No
-Contractor,Standard User,Restricted,Restricted,Limited,Yes,No
+Role,Department,Entra Access,AWS Access,Azure Access,Git Access,VPN Access,Privileged Access,MFA Required,Notes
+Help Desk,IT,Standard User,None,None,None,Yes,Limited,Yes,Password reset and basic account support only
+Cloud Engineer,Engineering,Standard User,AWS Developer,Azure Contributor,Yes,Yes,No,Yes,Can deploy and manage approved cloud resources
+Cloud Security Engineer,Cybersecurity,Standard User,AWS SecurityAudit,Azure Security Reader,Yes,Yes,Limited,Yes,Security monitoring and investigation access
+IAM Engineer,Cybersecurity,Identity Administrator,AWS IAM Read/Admin,Azure Identity Management,Yes,Yes,Limited,Yes,Manages identities groups roles and access
+Security Analyst,Cybersecurity,Standard User,AWS Security Read,Azure Security Reader,Yes,Yes,No,Yes,Read-only investigation access
+Systems Administrator,IT,Standard User,AWS Systems Manager,Azure VM Contributor,Yes,Yes,Limited,Yes,Infrastructure administration
+Developer,Engineering,Standard User,AWS Developer,Azure Contributor,Yes,Yes,No,Yes,Development environment access
+Finance Analyst,Finance,Standard User,None,Finance App Access,None,Yes,No,Yes,No infrastructure administration
+HR Analyst,Human Resources,Standard User,None,HR App Access,None,Yes,No,Yes,Handles employee records
+Program Manager,Program Management,Standard User,AWS ReadOnly,Azure Reader,Yes,Yes,No,Yes,Project visibility only
+Executive,Executives,Standard User,None,Azure Reader,None,Yes,No,Yes,Restricted business access
+Contractor,Contractors,Standard User,Limited Project Role,Limited Project Role,Limited,Yes,No,Yes,Time-limited access
