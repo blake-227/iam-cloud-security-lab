@@ -121,3 +121,50 @@ Created a 90-day access review.
 - IAM ticket processing
 - PowerShell automation
 
+
+
+## Day 3 - October 10, 2026
+
+### IAM Automation
+
+Built Northstar's first reusable Joiner provisioning workflow.
+
+The workflow now reads HR employee information from CSV and maps each employee's department and job title to an approved RBAC model.
+
+The automation performs:
+
+- User creation
+- Employee ID assignment
+- Department assignment
+- Job title assignment
+- Department-based group membership
+- Role-based group membership
+- Manager assignment
+- Identity verification
+- Access verification
+- Duplicate account protection
+- Invalid role rejection
+
+### Testing
+
+Successfully tested:
+
+- Valid employee onboarding
+- Duplicate provisioning attempt
+- Invalid RBAC role request
+- Batch onboarding
+
+### Skills Practiced
+
+- Microsoft Graph
+- PowerShell
+- IAM automation
+- Joiner lifecycle
+- RBAC
+- Least privilege
+- Identity attributes
+- Group-based provisioning
+- Manager relationships
+- Input validation
+- Idempotent automation
+

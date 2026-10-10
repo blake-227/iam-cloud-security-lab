@@ -1,0 +1,4 @@
+EmployeeID,FirstName,LastName,Department,JobTitle,ManagerUPN
+NS-1003,Amanda,Brooks,Engineering,Cloud Engineer,james.wilson@defensenorthstargmail.onmicrosoft.com
+NS-1004,Michael,Chen,Cybersecurity,Security Analyst,blake.admin@defensenorthstargmail.onmicrosoft.com
+NS-1005,David,Lee,IT,Help Desk Technician,blake.admin@defensenorthstargmail.onmicrosoft.com
