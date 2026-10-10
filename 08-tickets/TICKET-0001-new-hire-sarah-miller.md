@@ -101,9 +101,9 @@ Approved
 
 ## Provisioning Tasks
 
-- [ ] Create Entra user
-- [ ] Add to Engineering group
-- [ ] Add to Cloud Engineers group
+- [x] Create Entra user
+- [x] Add to Engineering group
+- [x] Add to Cloud Engineers group
 - [ ] Assign AWS Developer role
 - [ ] Assign Azure Contributor access
 - [ ] Grant Git repository access
@@ -116,7 +116,7 @@ Approved
 
 ## Final Status
 
-Status: Pending Provisioning
+Status: Provisioning In Progress
 
 IAM Analyst: Blake Alvarez
 

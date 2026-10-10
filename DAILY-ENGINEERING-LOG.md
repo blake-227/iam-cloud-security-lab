@@ -57,3 +57,67 @@ Created a 90-day access review.
 - Access documentation
 - IAM ticket processing
 - Audit trail creation
+
+
+
+## Day 2 - October 9, 2026
+
+### IAM
+
+- Configured the Northstar Microsoft Entra ID tenant.
+- Created a dedicated Blake Admin account.
+- Assigned Blake Admin the Global Administrator role.
+- Created Sarah Miller as a Cloud Engineer in Microsoft Entra ID.
+- Created the Engineering security group.
+- Created the Cloud Engineers security group.
+- Added Sarah Miller to Engineering and Cloud Engineers.
+- Created James Wilson as an Engineering Manager.
+- Created the Engineering Managers security group.
+- Added James Wilson to Engineering and Engineering Managers.
+- Set James Wilson as Sarah Miller's manager.
+- Updated IAM-0001 and IAM-0002 with completed identity provisioning tasks.
+
+### Automation
+
+- Installed the Microsoft Graph PowerShell SDK.
+- Connected to Microsoft Graph using PowerShell.
+- Queried Sarah Miller and James Wilson through Microsoft Graph.
+- Verified group memberships through PowerShell.
+- Created a PowerShell script to retrieve a user's group memberships.
+- Created an automated provisioning script for James Wilson.
+- Automated user creation, department assignment, job title assignment, group membership, and manager assignment.
+- Added verification logic to the provisioning script.
+
+### Troubleshooting
+
+- Resolved the Microsoft Entra tenant access issue caused by the original Microsoft Services tenant.
+- Created a usable Microsoft Entra tenant for the Northstar lab.
+- Fixed a PowerShell verification error caused by the user ID not being returned after a Graph query.
+- Updated the Graph user query to explicitly request the Id, Department, and AccountEnabled properties.
+- Verified that James Wilson belongs to Engineering and Engineering Managers.
+- Verified Sarah Miller's manager relationship through Microsoft Graph.
+- Resolved the issue where Microsoft Graph initially displayed only the manager object ID instead of the manager's name.
+
+### Cloud Security
+
+- Applied least privilege by denying unnecessary administrative access in the IAM access model.
+- Separated the dedicated administrative identity from standard employee identities.
+- Used security groups to manage access instead of assigning permissions directly to individual users.
+
+### Skills Practiced
+
+- Microsoft Entra ID
+- Microsoft Graph
+- PowerShell
+- User provisioning
+- Joiner lifecycle management
+- RBAC
+- Security groups
+- Group-based access
+- Least privilege
+- Manager relationships
+- IAM verification
+- IAM troubleshooting
+- IAM ticket processing
+- PowerShell automation
+

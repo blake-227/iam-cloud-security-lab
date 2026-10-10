@@ -11,3 +11,4 @@ HR Analyst,Human Resources,Standard User,None,HR App Access,None,Yes,No,Yes,Hand
 Program Manager,Program Management,Standard User,AWS ReadOnly,Azure Reader,Yes,Yes,No,Yes,Project visibility only
 Executive,Executives,Standard User,None,Azure Reader,None,Yes,No,Yes,Restricted business access
 Contractor,Contractors,Standard User,Limited Project Role,Limited Project Role,Limited,Yes,No,Yes,Time-limited access
+Engineering Manager,Engineering,Standard User,AWS ReadOnly,Azure Reader,Yes,Yes,No,Yes,Engineering management and project oversight
