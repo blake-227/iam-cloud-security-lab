@@ -215,3 +215,39 @@ Automation performed:
 - Entitlement governance
 - Change management
 - Audit evidence
+
+
+
+## October 13, 2026
+
+### IAM Leaver Automation
+
+Built Northstar's automated employee offboarding workflow.
+
+Simulated the termination of David Lee.
+
+Automation performed:
+
+- Validated identity against employee ID
+- Captured existing access
+- Generated a dry-run termination plan
+- Disabled the Entra account
+- Revoked active sign-in sessions
+- Removed IAM-managed group access
+- Preserved the identity for retention
+- Verified the final state
+- Generated audit evidence
+- Protected administrative identities from accidental deprovisioning
+
+### Security Concepts Practiced
+
+- Identity lifecycle management
+- Immediate access revocation
+- Session invalidation
+- Least privilege
+- Access termination
+- Retention
+- Controlled automation scope
+- Idempotency
+- Administrative account protection
+- Audit evidence
