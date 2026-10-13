@@ -168,3 +168,50 @@ Successfully tested:
 - Input validation
 - Idempotent automation
 
+
+
+## October 11, 2026
+
+### IAM Mover Automation
+
+Built Northstar's automated employee Mover workflow.
+
+Simulated Amanda Brooks transferring from Engineering to Cybersecurity and moving from Cloud Engineer to Cloud Security Engineer.
+
+Automation performed:
+
+- Validated requested role against RBAC policy
+- Captured existing access
+- Generated a dry-run change plan
+- Updated department
+- Updated job title
+- Removed obsolete Engineering access
+- Removed obsolete Cloud Engineer access
+- Added Cybersecurity access
+- Added Cloud Security Engineer access
+- Updated manager
+- Verified final directory state
+- Generated an audit record
+
+### Security Controls Tested
+
+- Least privilege
+- Prevention of privilege accumulation
+- RBAC validation
+- Removal of obsolete access
+- Idempotency
+- Invalid-role rejection
+- Audit logging
+- Controlled automation scope
+
+### Skills Practiced
+
+- Microsoft Graph
+- PowerShell
+- Identity lifecycle management
+- Mover workflow
+- RBAC
+- Access remediation
+- Entitlement governance
+- Change management
+- Audit evidence

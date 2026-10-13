@@ -12,3 +12,4 @@ Program Manager,Program Management,Standard User,AWS ReadOnly,Azure Reader,Yes,Y
 Executive,Executives,Standard User,None,Azure Reader,None,Yes,No,Yes,Restricted business access
 Contractor,Contractors,Standard User,Limited Project Role,Limited Project Role,Limited,Yes,No,Yes,Time-limited access
 Engineering Manager,Engineering,Standard User,AWS ReadOnly,Azure Reader,Yes,Yes,No,Yes,Engineering management and project oversight
+Cloud Security Engineer,Cybersecurity,Standard User,AWS Security,Azure Security Reader,Yes,Yes,Limited,Yes,Cloud security engineering monitoring and remediation

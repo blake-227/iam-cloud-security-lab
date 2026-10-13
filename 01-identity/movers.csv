@@ -1,0 +1,2 @@
+TicketID,EmployeeID,UserPrincipalName,NewDepartment,NewJobTitle,NewManagerUPN,EffectiveDate
+IAM-0006,NS-1003,amanda.brooks@defensenorthstargmail.onmicrosoft.com,Cybersecurity,Cloud Security Engineer,jennifer.adams@defensenorthstargmail.onmicrosoft.com,2026-10-10
