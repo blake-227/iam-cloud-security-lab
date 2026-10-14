@@ -251,3 +251,52 @@ Automation performed:
 - Idempotency
 - Administrative account protection
 - Audit evidence
+
+
+
+## October 14, 2026
+
+### Identity Governance and Access Certification
+
+Built Northstar's first automated access review and entitlement certification workflow.
+
+The system compared employees' current Entra group memberships against approved RBAC mappings.
+
+The certification campaign:
+
+- Identified baseline access
+- Identified unexpected access
+- Generated manager review recommendations
+- Captured manager certification decisions
+- Automatically remediated rejected unexpected entitlements
+- Protected baseline RBAC access from conflicting automated removal
+- Generated audit evidence
+
+### Access Risk Identified
+
+Sarah Miller had inappropriate Security Analysts membership.
+
+Her authorized role was Cloud Engineer.
+
+The access review recommended revocation.
+
+Manager decision:
+
+Revoke
+
+The entitlement was automatically removed.
+
+### Skills Practiced
+
+- Identity Governance
+- Access Reviews
+- Entitlement Certification
+- RBAC
+- Access Recertification
+- Access Creep Detection
+- Least Privilege
+- Manager Approval
+- Automated Remediation
+- Audit Evidence
+- Microsoft Graph
+- PowerShell
