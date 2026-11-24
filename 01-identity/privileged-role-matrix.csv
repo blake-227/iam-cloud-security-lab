@@ -1,0 +1,3 @@
+RoleName,MaximumDurationMinutes,ApprovalRequired,AllowedPrivilegedAccount,RiskLevel
+Groups Administrator,60,Yes,jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com,Medium
+User Administrator,60,Yes,jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com,High

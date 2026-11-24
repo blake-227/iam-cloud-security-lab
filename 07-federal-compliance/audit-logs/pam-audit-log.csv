@@ -1,0 +1,3 @@
+"TimestampUTC","RequestID","TicketID","PrivilegedUPN","RoleName","AssignmentID","Action","Result"
+"2026-10-14T23:26:14.8104168Z","PAM-0001","IAM-0009","jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com","Groups Administrator","UafX_Qu2SkSYTAJlL-j6HEKtseFyduJBmW1T-dNLxXg-1","Privilege Removed","SUCCESS"
+"2026-10-14T23:40:10.3673114Z","PAM-0001","IAM-0009","jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com","Groups Administrator","UafX_Qu2SkSYTAJlL-j6HEKtseFyduJBmW1T-dNLxXg-1","Privilege Removed","SUCCESS"

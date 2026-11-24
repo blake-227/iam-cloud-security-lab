@@ -1,0 +1,2 @@
+"RequestID","TicketID","PrivilegedUPN","RoleName","DurationMinutes","ApproverUPN","Decision","Justification","Status"
+"PAM-0001","IAM-0009","jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com","Groups Administrator","5","james.wilson@defensenorthstargmail.onmicrosoft.com","Approve","Temporary group administration for IAM maintenance","Active"

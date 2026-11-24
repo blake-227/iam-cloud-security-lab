@@ -1,0 +1,2 @@
+"RequestID","TicketID","PrivilegedUPN","RoleName","AssignmentID","ActivatedAtUTC","ExpiresAtUTC","Status"
+"PAM-0001","IAM-0009","jennifer.adams.admin@defensenorthstargmail.onmicrosoft.com","Groups Administrator","UafX_Qu2SkSYTAJlL-j6HEKtseFyduJBmW1T-dNLxXg-1","2026-10-14T23:32:11.8965259Z","2026-10-14T23:37:11.8965259Z","Expired - Revoked"
